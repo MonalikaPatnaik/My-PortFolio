@@ -43,9 +43,9 @@
 .img{
     grid-area: pic;
     justify-self: center;
-    width: 100%;
+    width:100%;
     aspect-ratio: 1/1;
-    border-radius: 70%;
+    border-radius: 50%;
     overflow: hidden;
     /* background: linear-gradient(to right, #36FBB1, #a8ffde, #a8ffde, #36FBB1); */
     /* filter: blur(0.5px) grayscale(0.8); */
@@ -56,6 +56,7 @@
     bottom: 0;
     height: fit-content;
     transition: 0.5s all linear;
+    border-radius: 50%;
 }
 /* .img:hover{
     filter: blur(0px) grayscale(0) drop-shadow(10px 10px 15px black);
@@ -94,7 +95,7 @@
     .img{
         width: 100%;
         /* filter: blur(0px) grayscale(0) drop-shadow(10px 10px 15px black); */
-        z-index: -1;
+        /* z-index: -1; */
     }
 }
 @media only screen and (max-width: 600px) {
@@ -117,8 +118,9 @@
         width: 100%;
     }
     .img{
-        border-radius: 40px;
-        width: 90%;
+        border-radius: 50px;
+        width: 100%;
+        margin-top: 16px;
     }
     .about a{
         margin: 20px auto;

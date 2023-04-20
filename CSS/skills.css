@@ -59,7 +59,7 @@
     border-radius: 50%;
 }
 .iteamCircle img{
-    transition: 0.5s all linear;
+    transition: 0.9s all ease-out;
     height: 75%;
 }
 .iteamCircle:hover > img{
