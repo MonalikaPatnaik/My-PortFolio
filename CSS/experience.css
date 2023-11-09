@@ -1,8 +1,4 @@
 .experience{
-   
-  /* height: 100vh;
-  width:100%;
-  position: inherit; */
   padding:100px 0;
 }
 .max-width {
@@ -50,7 +46,7 @@ background: #222;
 text-align: center;
 border-radius: 6px;
 padding: 20px 25px;
-
+margin-bottom:20px;
 transition: all 0.3s ease;
 }
 .experience,
@@ -101,26 +97,6 @@ background: #fff;
     line-height: 38px;
   }
 }
-/* @media (max-width: 768px){
-    .experience hr{
-        width:41%;
-    }
-}
-@media (max-width: 425px){
-    .experience hr{
-        width: 40%;
-    }
-}
-@media (max-width: 1010px){
-    .experience hr{
-        width: 49%;
-    }
-}
-@media (max-width: 1200px){
-    .experience hr{
-        width: 75%;
-    }
-} */
 
  
   
