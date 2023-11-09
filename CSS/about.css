@@ -52,9 +52,10 @@
     transition: 0.5s all linear;
 }
 .img img{
-    right: 0;
+    /* right: 0;
     bottom: 0;
-    height: fit-content;
+    height: fit-content; */
+    max-width: 100%;
     transition: 0.5s all linear;
     border-radius: 50%;
 }
