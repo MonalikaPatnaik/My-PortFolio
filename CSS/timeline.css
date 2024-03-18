@@ -9,6 +9,7 @@
     border: 1px solid #4bf19f;
     border-radius: 8px;
     color: #f7f7f7;
+    height:300px;
     /* width:fit-content; */
   }
   /* .card:hover {
@@ -16,8 +17,8 @@
     box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
   } */
   .projects .carousel .card:hover {
-    /* background: #4bf19f; */
-    transform: scale(1.10);
+    
+    transform: scale(0.95);
     box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
   }
   .projects .carousel .card .box {
@@ -27,25 +28,25 @@
     justify-content: center;
     transition: all 0.3s ease;
   }
-  .projects .carousel .card:hover .box {
+  /* .projects .carousel .card:hover .box {
     transform: scale(1.05);
-  }
+  } */
   .projects .carousel .card .text {
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
   }
   .projects .carousel .card img {
-    height: 150px;
+    height: 160px;
     width: 100%;
     object-fit: cover;
     /* border-radius: 6px; */
     border: 1px solid #56e79e;
     transition: all 0.3s ease;
   }
-  .projects .carousel .card:hover img {
+  /* .projects .carousel .card:hover img {
     border:3px solid #4de89b;
-  }
+  } */
   .owl-dots {
     text-align: center;
     margin-top: 20px;
